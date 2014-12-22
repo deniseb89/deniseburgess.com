@@ -1,0 +1,76 @@
+html { 
+  background: url('../images/headshot.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'HelsinkiXXL', Fallback, sans-serif;
+}
+
+@font-face {
+  font-family: 'HelsinkiXXL';
+  src: url('../fonts/HelsinkiXXL/HelsinkiXXL-Thin.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelsinkiXXL/HelsinkiXXL-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelsinkiXXL/HelsinkiXXL-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelsinkiXXL/HelsinkiXXL-Thin.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+a {
+  text-decoration: none;
+}
+
+.arrow {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);  
+  margin-left: 15px;
+}
+
+.nose {
+  position: absolute;
+  top: 560px;
+  left: 411px;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 110px solid transparent;
+  cursor: pointer;
+}
+
+.drop-down-menu {
+  position: absolute;
+  top: 691px;
+  left: 283px;
+  border-radius: 5px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: rgb(140,91,123);
+}
+
+.drop-down-menu ul {
+  list-style-type: none;
+  font-size: 80px;
+  text-align: center;
+  background-color: rgba(221,224,207, 0.6);
+  padding-right: 40px;
+}
+
+#about {
+  display: block;
+  width: 80%;
+  margin: auto;
+  font-size: 80px;
+  color: whitesmoke;
+  background-color: rgba(140,91,123, 0.5);
+  border-radius: 25px;
+}
+
+#about p {
+  padding: 44px;
+  margin-top: 0;
+}
