@@ -5,6 +5,7 @@ function hideEverything() {
   $('#portfolio').hide();
   $('#resume').hide();
   $('#hire-me').hide();
+  $('.arrow').hide();
 }
 
 
@@ -16,6 +17,10 @@ function menuToggle() {
 }
 
 // BACK
+function showArrow() {
+  $('.arrow').fadeIn(500);
+};
+
 function backHome() {
   $('.arrow').on('click', function() {
     hideEverything();
@@ -29,9 +34,39 @@ function showAboutPage() {
     $('.drop-down-menu').toggle('slide', {direction: 'up'}, function() {
       $('#about').show('fold', 750);      
     }, 750);
+    showArrow();
   });
 }
 
+// PORTFOLIO
+function showPortfolioPage() {
+  $('a[href="#portfolio"]').on('click', function() {
+    $('.drop-down-menu').toggle('slide', {direction: 'up'}, function() {
+      $('#portfolio').show('explode', 750);      
+    }, 750);    
+    showArrow();
+  });
+}
+
+// RESUME
+function showResumePage() {
+  $('a[href="#about"]').on('click', function() {
+    $('.drop-down-menu').toggle('slide', {direction: 'up'}, function() {
+      $('#about').show('fold', 750);      
+    }, 750);
+    showArrow();
+  });
+}
+
+// HIRE ME
+function showHireMePage() {
+  $('a[href="#hire-me"]').on('click', function() {
+    $('.drop-down-menu').toggle('slide', {direction: 'up'}, function() {
+      $('#hire-me').show('scale', 750);      
+    }, 750);
+    showArrow();
+  });
+}
 
 
 $(function() {
@@ -39,4 +74,6 @@ $(function() {
   menuToggle();
   showAboutPage();
   backHome();
+  showPortfolioPage();
+  showHireMePage();
 })

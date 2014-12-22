@@ -74,3 +74,43 @@ a {
   padding: 44px;
   margin-top: 0;
 }
+
+#portfolio div {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(147,116,96);
+  color: #DDE0CF;
+  width: 90%;
+  font-size: 60px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#portfolio img,
+#portfolio h3,
+#portfolio p {
+  width: 95%;
+  margin-left: 20px;
+}
+
+#hire-me {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(198,190,154,0.9);
+  color: #8C5B7B;
+  width: 90%;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#hire-me p,
+#hire-me ul {
+  font-size: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+#hire-me ul {
+  list-style-type: none;
+  padding: 0;
+}
