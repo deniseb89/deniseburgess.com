@@ -1,4 +1,6 @@
 // VIEWPORT STUFF
+var viewPortWidth = window.innerWidth;
+
 function hideEverything() {
   $('.drop-down-menu').hide();
   $('#about').hide();
@@ -11,9 +13,7 @@ function hideEverything() {
 
 // MENU DROPDOWN
 function menuToggle() {
-  $('.nose').on('click', function() {
-    $('.drop-down-menu').slideDown(750);
-  });
+  $('.drop-down-menu').slideDown(750);
 }
 
 // BACK

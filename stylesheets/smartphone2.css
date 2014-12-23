@@ -1,0 +1,97 @@
+@media (max-width: 1000px) and (orientation: landscape) {
+
+  .drop-down-menu {
+    position: absolute;
+    top: 189px;
+    left: 342px;
+    border-radius: 5px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+    color: rgb(140,91,123);
+  }
+
+  .drop-down-menu ul {
+    list-style-type: none;
+    font-size: 58px;
+    text-align: center;
+    background-color: rgba(221,224,207, 0.6);
+    padding-right: 40px;
+    margin-bottom: 10px;
+  }
+
+  #about {
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 58px;
+    color: whitesmoke;
+    background-color: rgba(140,91,123, 0.5);
+    border-radius: 25px;
+  }
+
+  #about p {
+    padding: 44px;
+    margin-top: 0;
+  }
+
+  #portfolio div {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(147,116,96, 0.8);
+    color: #DDE0CF;
+    width: 90%;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  #portfolio img,
+  #portfolio h3,
+  #portfolio p {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  #hire-me {
+    width: 90%;
+    margin: auto;
+    background-color: rgba(198,190,154,0.9);
+    color: #8C5B7B;
+    width: 90%;
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  #hire-me p,
+  #hire-me ul {
+    font-size: 58px;
+    width: 90%;
+    margin: auto;
+  }
+
+  #hire-me ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #resume {
+    width: 95%;
+    margin: auto;
+  }
+
+  .download {
+    height: 21px;
+    width: 103px;
+    position: absolute;
+    top: 349px;
+    left: 67px;
+    cursor: pointer;
+  }
+
+  #resume img {
+    width: 95%;
+    margin: auto;
+  }
+}
