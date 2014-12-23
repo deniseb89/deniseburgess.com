@@ -50,9 +50,9 @@ function showPortfolioPage() {
 
 // RESUME
 function showResumePage() {
-  $('a[href="#about"]').on('click', function() {
+  $('a[href="#resume"]').on('click', function() {
     $('.drop-down-menu').toggle('slide', {direction: 'up'}, function() {
-      $('#about').show('fold', 750);      
+      $('#resume').show('highlight', 750);      
     }, 750);
     showArrow();
   });
@@ -72,8 +72,9 @@ function showHireMePage() {
 $(function() {
   hideEverything();
   menuToggle();
-  showAboutPage();
   backHome();
+  showAboutPage();
   showPortfolioPage();
+  showResumePage()
   showHireMePage();
 })

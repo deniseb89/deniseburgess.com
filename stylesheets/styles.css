@@ -26,6 +26,8 @@ a {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);  
   margin-left: 15px;
+  width: 130px;
+  margin-bottom: 100px;
 }
 
 .nose {
@@ -114,3 +116,24 @@ a {
   list-style-type: none;
   padding: 0;
 }
+
+#resume {
+  width: 95%;
+  margin: auto;
+}
+
+.download {
+  height: 21px;
+  width: 103px;
+  position: absolute;
+  top: 264px;
+  left: 58px;
+  cursor: pointer;
+}
+
+#resume img {
+  width: 95%;
+  margin: auto;
+}
+
+
