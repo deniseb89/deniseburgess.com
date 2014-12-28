@@ -1,8 +1,5 @@
-// VIEWPORT STUFF
-var viewPortWidth = window.innerWidth;
-
 function hideEverything() {
-  $('.drop-down-menu').hide();
+  // $('.drop-down-menu').hide();
   $('#about').hide();
   $('#portfolio').hide();
   $('#resume').hide();
@@ -77,4 +74,8 @@ $(function() {
   showPortfolioPage();
   showResumePage()
   showHireMePage();
+  var wantedHeight = $(window).height();
+  var wantedWidth = $(window).width();
+  $('.body').css('height', wantedHeight);
+  $('.body').css('width', wantedWidth);
 })
