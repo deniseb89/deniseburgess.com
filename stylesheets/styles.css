@@ -4,7 +4,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'HelsinkiXXL', Fallback, sans-serif;
+  font-family: 'HelsinkiXXL', sans-serif;
+  color: whitesmoke;
 }
 
 @font-face {
@@ -16,110 +17,33 @@ body {
 }
 
 a {
+  color: whitesmoke;
   text-decoration: none;
 }
 
-.arrow {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);  
-  margin-left: 15px;
-  width: 130px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-.drop-down-menu {
-  width: 95%;
-}
-
-.menu-item a {
+a:hover {
+  color: lemonchiffon;
   text-decoration: none;
-  color: rgb(140,91,123);
 }
 
-.drop-down-menu ul {
+ul {
   list-style-type: none;
-  font-size: 3.6em;
-  text-align: center;
-  background-color: rgba(221,224,207, 0.8);
-  padding-right: 40px;
-  border-radius: 10px;
-  width: 300px;
+  padding-left: 0;
+}
+
+li {
+  line-height: 40px;
 }
 
 #about {
-  width: 80%;
-  margin: auto;
-  font-size: 3.6em;
-  color: whitesmoke;
-  background-color: rgba(140,91,123, 0.8);
-  border-radius: 25px;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  font-size: 30px;
 }
 
-#about p {
-  padding: 44px;
-  margin-top: 0;
-}
-
-#portfolio div {
-  border-radius: 20px;
-  background-color: rgba(147,116,96, 0.8);
-  color: #DDE0CF;
-  width: 90%;
-  font-size: 3.75em;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-#portfolio div img {
-  width: 95%;
-  margin-left: 2%;
-}
-
-#portfolio h3,
-#portfolio p {
-  width: 95%;
-  margin: 2%;
-}
-
-#hire-me {
-  width: 90%;
-  margin: auto;
-  background-color: rgba(198,190,154,0.8);
-  color: #8C5B7B;
-  border-radius: 25px;
-}
-
-#hire-me p,
-#hire-me ul {
-  font-size: 3.6em;
-  width: 90%;
-  margin: auto;
-}
-
-#hire-me ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#resume {
-  width: 23%;
-  height: 12%;
-  margin: auto;
-  margin-top: 30%;
-  padding-top: 2%;
-}
-
-#resume a {
-  padding: 24px;
-  background-color: rgba(147,116,96, 0.7);
-  border-radius: 21%;
-  color: whitesmoke;
-  font-size: 1.5em;
-  margin: auto;
+span {
+  font-size: 22px;
+  margin-left: 5px;
 }
 
 .clearfix:before,  
